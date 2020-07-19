@@ -1,0 +1,57 @@
+.wrap {
+    max-width: $contenedor;
+    margin: 0 auto;
+    }
+    
+.content-home {
+    background-image: url('../assets/images/cover.png');
+    background-size: cover;
+    background-position: center;
+    &__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 140px);
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        color: $blanco;
+        max-width: 1000px;
+        letter-spacing: 5px;
+    }
+
+    button {
+        background-color: $color-primario;
+        padding: 20px;
+        border: none;
+        font-size: 18px;
+        font-weight: 700;
+        } 
+
+    }
+}
+
+.contact {
+background-color: $gris-fondos;
+padding: $standar-separate;
+@extend .flex; 
+
+&__card {
+    @extend .flex;
+    img {
+        max-width: 100px;
+        padding: $standar-separate;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+}
+}

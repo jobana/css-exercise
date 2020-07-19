@@ -1,0 +1,10 @@
+@media screen and (max-width: 640px) {
+    $standar-separate: 10px;
+    .flex {
+        flex-direction: column;
+    }
+    .grid-articles {
+        padding: 0 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

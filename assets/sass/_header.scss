@@ -1,0 +1,49 @@
+/*Header*/
+body {
+    font-family: 'Roboto';
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, a {
+    font-family: 'Roboto mono';
+}
+
+a {
+   text-decoration: none; 
+   color: $color-fuentes;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+}
+
+.socials {
+    background-color: $color-primario;
+    padding: 1px 20px;
+    &__icons {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+    }
+
+    span {
+        color: white;
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   &__logo img {
+       max-width: 220px;
+   }
+   &__nav {
+       margin-right: 50px;
+       a {
+           text-decoration: underline;
+       }
+   }
+   
+}

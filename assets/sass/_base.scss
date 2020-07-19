@@ -1,0 +1,23 @@
+/*Fuentes*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+/*Variables*/
+
+$color-primario: #48cfad;
+$color-secundario: #434a54;
+$blanco:  #e6e9ed;
+$gris: #23282d;
+$gris-fondos: #ccd1d9;
+$color-fuentes: #23282d;
+
+$standar-separate: 30px;
+$contenedor: 980px;
+
+/* Includes */
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
